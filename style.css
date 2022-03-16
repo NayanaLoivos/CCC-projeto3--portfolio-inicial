@@ -1,0 +1,18 @@
+header {
+   display:contents;  
+
+}
+
+.caixa {
+    background: #a415e6;
+    padding: 40px 0;
+    position: relative;
+    width: 100vw;
+    margin: 0 23vw auto;
+}
+
+.competencias {
+    font-size: 2.25rem;
+    
+    
+}
