@@ -1,5 +1,4 @@
 html {
-    font-size: 1rem; 
     font-family: "Open Sans", sans-serif; 
     background-color: #000000;
   }
@@ -21,6 +20,17 @@ body {
     font-size: 2rem;
     line-height: 1.5;
     letter-spacing: 0.0625rem;
+    text-transform: uppercase;
     text-align: center;
-    text-shadow: 3px 3px 1px #ad388659;     
+    text-shadow: 3px 3px 1px #ad388659;    
+    
 } 
+
+.contanier-titulo {
+  text-decoration: underline wavy #a17de459;
+  
+}
+.competencias {
+  text-decoration: underline wavy #ad388659;
+  
+}
