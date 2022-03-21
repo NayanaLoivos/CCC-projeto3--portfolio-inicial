@@ -1,36 +1,65 @@
 html {
-    font-family: "Open Sans", sans-serif; 
-    background-color: #000000;
-  }
-
-body {      
-  margin: 2rem 2rem;
-}  
-
-.contanier-da-foto {
-    background: #e0189e59;
-    border: 5px solid azure;
-    padding: 1rem;
-    position: relative;
-    margin: 5%;    
+  font-family: "Open Sans", sans-serif; 
+  background-color: #000000;
+  margin: 10%;
 }
 
-.contanier-titulo, .competencias {
+
+.contanier-da-foto {    
+  border: 5px solid azure;
+  padding: 1rem;
+  position: relative;
+  border-radius: 10px;  
+  box-shadow: 0px 5px 5px 5px #ffdbf359;  
+}
+
+.contanier-foto {
+  width: 50%;
+}
+
+.contanier-titulo, .card-content {
     color: azure;
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 1.5;
-    letter-spacing: 0.0625rem;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 3px 3px 1px #ad388659;    
+    letter-spacing: 0.0625rem;   
+    text-shadow: 3px 3px 1px #ad388659;        
     
 } 
 
 .contanier-titulo {
-  text-decoration: underline wavy #a17de459;
+  text-decoration: underline wavy #ad388659;
+  font-size: 2rem; 
+  text-transform: uppercase;  
+  text-align: center;
   
 }
-.competencias {
-  text-decoration: underline wavy #ad388659;
-  
+.card-citacao {
+  font-style: italic;
+  font-size: 0.8rem;
+
+}
+.card-content {  
+  text-align: center;  
+  column-gap: 20px;
+  align-items: center;  
+}
+
+.card {
+  width: 100%;
+  padding: 20px 20px 20px; 
+  margin: 5% 0% 5% 0%;
+  box-sizing: border-box;  
+  border: 60px;
+  box-shadow: 5px 5px 5px 5px #ffdbf359; 
+  border-top: solid 3px #eb56b959;
+  border-radius: 10px;
+}
+
+@media screen and (min-width:420px) {
+  body {
+    margin:5%;
+  } 
+  .contanier-titulo {
+    white-space: nowrap;    
+  }  
 }
